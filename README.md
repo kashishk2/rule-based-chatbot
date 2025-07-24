@@ -1,26 +1,36 @@
 # Task 1 – Rule-Based Chatbot
 
-This is a basic rule-based chatbot developed as part of Task 1 during the Artificial Intelligence Internship at CodSoft.
+This project is a basic rule-based chatbot developed as part of Task 1 for the Artificial Intelligence Virtual Internship at CodSoft.
 
-## Description
+## Overview
 
-The chatbot is built using simple Python logic and conditional statements (`if-elif-else`).  
-It interacts with the user by responding to predefined inputs such as greetings, questions, and casual queries.
+The chatbot is designed to interact with users using simple rule-based logic. It identifies certain keywords or phrases in the user's input and responds accordingly. If the input does not match any known pattern, the chatbot provides a default response.
 
-## Features
+## Key Features
 
-- Greets the user by name
-- Responds to common phrases like:
-  - "hello", "how are you", "your name", "thank you", "tell me a joke"
-- Provides a default reply if the input is not recognized
-- Exits the conversation when the user types "bye"
+- Personalized greeting using the user's name
+- Responds to basic user queries such as:
+  - Greetings ("hello", "hi")
+  - Asking about the chatbot ("your name")
+  - Politeness ("thank you")
+  - Humor ("tell me a joke")
+  - Support ("help")
+- Exits the conversation upon receiving "bye"
+- Handles unrecognized inputs with a polite message
 
 ## Technologies Used
 
-- Python 3.x
+- Programming Language: Python 3.x
+- Logic: Conditional statements (`if-elif-else`)
+- Input/Output: Command-line interaction
 
 ## How to Run
 
-Make sure Python is installed on your system.  
-Run the chatbot using the following command in the terminal:
+Ensure Python is installed on your system. Follow these steps to run the chatbot:
+
+1. Open your terminal or command prompt
+2. Navigate to the folder containing the script
+3. Run the script using the command: 
 python chatbot.py
+
+
