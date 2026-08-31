@@ -1,4 +1,4 @@
-# Task 1 – Rule-Based Chatbot
+# Rule-Based Chatbot
 
 This project is a basic rule-based chatbot developed as part of Task 1 for the Artificial Intelligence Virtual Internship at CodSoft.
 
